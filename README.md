@@ -1,6 +1,6 @@
 # ESPDUINO_SDS011_MQTT
 
-This project aims at using an ESPDUINO to collect data from a dust sensor (SDS-011) to an MQTT Broker.
+This project aims at using an ESPDUINO to collect data from a dust sensor (SDS-011 or SDS021) and send this to an MQTT Broker.
 
 Connections between ESPDUINO and SDS-011 (also works with SDS-021):
 
