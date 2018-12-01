@@ -4,8 +4,10 @@ This project aims at using an ESPDUINO to collect data from a dust sensor (SDS-0
 
 Connections between ESPDUINO and SDS-011 (also works with SDS-021):
 
-ESPDUINO	SDS-011/SDS-021
-RX		pin 1 (TX)
-TX		pin 2 (RX)
-GND		pin 3 (GND)
-5V		pin 5 (5V)
+ESP RX -> SDS-0x1 pin 1 (TX)
+
+ESP TX -> SDS-0x1 pin 2 (RX)
+
+ESP GND -> SDS-0x1 pin 3 (GND)
+
+ESP 5V -> SDS-0x1 pin 5 (5V)
