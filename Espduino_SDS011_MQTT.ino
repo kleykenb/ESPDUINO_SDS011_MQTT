@@ -24,8 +24,6 @@ SdsDustSensor sds(Serial); // passing HardwareSerial& as parameter
 void MQTT_connect();
 
 void setup() {
- // Serial.begin(9600);
- // delay(10);
 
   WiFi.begin(WLAN_SSID, WLAN_PASS);
   while (WiFi.status() != WL_CONNECTED) {
